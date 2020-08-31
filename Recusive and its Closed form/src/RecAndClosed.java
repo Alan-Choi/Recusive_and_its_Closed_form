@@ -12,7 +12,7 @@ public class RecAndClosed {
                  = 2(k + 1) + (k^2 + k)                 (Induction assumption)
                  = 2k + 2 + k^2 + k
                  = k^2 + 3k + 2
-                 = (k + 2)(k + 1)
+                 = k^2 + 2k + 1 + k + 1
                  = (k + 1)^2 + (k + 1)                  (2n + f(n - 1) = n + n^2)
      */
 
