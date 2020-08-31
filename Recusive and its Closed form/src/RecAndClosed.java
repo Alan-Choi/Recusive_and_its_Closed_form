@@ -10,9 +10,9 @@ public class RecAndClosed {
         f(k + 1) = 2[(k + 1)] + f([(k + 1) - 1])        (Definition of f)
                  = 2(k + 1) + f(k)
                  = 2(k + 1) + (k^2 + k)                 (Induction assumption)
-                 = 2k + 2 + k^2 + k
-                 = k^2 + 3k + 2
-                 = k^2 + 2k + 1 + k + 1
+                 = 2k + 2 + k^2 + k                     (Distribute)
+                 = k^2 + 3k + 2                         (Combine like terms)
+                 = k^2 + 2k + 1 + k + 1                 (Pull out a k = 1 and factor)
                  = (k + 1)^2 + (k + 1)                  (2n + f(n - 1) = n + n^2)
      */
 
